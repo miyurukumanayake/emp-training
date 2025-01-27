@@ -1,0 +1,7 @@
+.page-card-header.double {
+    height: calc(var(--card-header) * 2);
+}
+
+.page-card-body.double-header {
+    height: calc(100% - var(--card-header) * 2);
+}

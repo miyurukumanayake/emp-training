@@ -1,0 +1,42 @@
+.hr {
+    border-bottom: 1px solid var(--bs-border-color);
+    width: calc(100% - 100px);
+}
+
+.plan-section {
+    position: relative;
+    padding: 15px;
+    border: 1px solid var(--bs-border-color);
+    display: inline-block;
+}
+
+.plan-section button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: var(--bs-danger);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-section .plan-section-arrow {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section-list button {
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+.section-card {
+
+}
+
+.section-card .section-number {
+    border-radius: 50%;
+    background-color: var(--grey-bg);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-card .section-title {
+
+}
+
+.section-card .section-status {
+
+}
+
+.section-card .section-progress {
+
+}

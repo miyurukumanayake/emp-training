@@ -1,0 +1,30 @@
+.dashboard-spacing {
+    margin-bottom: var(--padding);
+}
+
+.dashboard-card {
+    background-color: var(--primary);
+    color: white;
+}
+
+.status-card-wrapper {
+    padding-right: calc(var(--padding) / 2);
+}
+
+.status-card {
+    height: 190px;
+}
+
+.status-card .date, .status-card .progress-label, .recent-card .date {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--grey-text-light);
+}
+
+.recent-card-wrapper {
+    padding-left: calc(var(--padding) / 2);
+}
+
+.recent-card {
+    height: 190px;
+}

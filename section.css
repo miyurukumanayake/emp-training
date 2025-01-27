@@ -1,0 +1,10 @@
+.task-card .task-desc {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.task-card .task-date {
+    font-size: 12px;
+    font-weight: 600;
+    color: #808080;
+}

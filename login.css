@@ -1,0 +1,25 @@
+#app {
+    background-image: url(/assets/images/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-page {
+    gap: 100px;
+}
+
+.info-col {
+    width: 750px;
+}
+
+.login-form {
+    width: 400px;
+    margin: 50px auto;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
